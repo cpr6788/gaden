@@ -1,0 +1,8 @@
+#pragma once
+#include "../../../simulated_tdlas/third_party/DDA/third_party/glm/glm/vec3.hpp"
+
+namespace Gaden
+{
+	using Vector3 = glm::vec < 3, double>;
+	using Vector3i = glm::ivec3;
+} // namespace Gaden
